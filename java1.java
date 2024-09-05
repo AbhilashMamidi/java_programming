@@ -1,0 +1,14 @@
+class java1 
+{
+	public static void main(String[] args) 
+	{
+		int count=1;
+		for (int a=1;a<=10 ;a++ )
+		{
+		System.out.println(count + ")" + "Hello World!");
+		
+		count++;
+		}
+	}
+	
+}

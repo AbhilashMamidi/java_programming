@@ -1,0 +1,12 @@
+class fabinaci
+{
+    public static void main (String [] args)
+	{
+        int number = 50;
+        for(int a= 1;a>1;a--)
+		  {
+         number = number*a;
+           }
+         System.out.println(number);
+    }    
+}

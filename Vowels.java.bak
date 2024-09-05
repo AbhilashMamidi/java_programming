@@ -1,0 +1,23 @@
+
+class  Vowels
+{
+	public static void main(String[] args) 
+	{
+		
+			char b = scan.next().charAt(0);
+		for (char a=name;a<=b ;a++)
+
+		{
+			if (a=='a' || a=='e' || a=='i' || a=='o' || a=='u')
+			{
+			}
+		else 
+				{
+			System.out.println(a);
+				}
+			
+		}
+	}
+}
+	
+		

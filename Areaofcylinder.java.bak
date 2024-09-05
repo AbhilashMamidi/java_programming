@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Areaofcylinder 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the radius!");
+		int a = scan.next.in();
+		System.out.println("Area"+(3.14*a*a));
+	}
+}

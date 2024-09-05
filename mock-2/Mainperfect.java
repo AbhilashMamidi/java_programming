@@ -1,0 +1,44 @@
+import java.util.*;
+
+public class Mainperfect {
+    public static void main(String[] args) {
+      
+      int m = 1;
+      
+      int n = 100;
+      for(int i=1;i>=1;i++)
+      {
+        int num = i;
+        int sum = 0;
+        if (num>=m && num<=n)
+        {
+          for(int j=1;j<num;j++)
+          {
+            if (num%j==0)
+            {
+              sum=sum+j;
+            }
+          }
+          if(sum==num)
+          {
+            int lstd = 0;
+            int digitSum = 0;
+            while(sum!=0)
+            { 
+              lstd = sum%10;
+              digitSum += lstd; 
+              sum =sum/10;
+            }
+            if(digitSum<=15)
+            {
+                System.out.println(i);
+            } 
+            else
+            {
+              break;
+            }
+          }
+        }
+      }
+    } 
+  }/*6,28,496,8128*/

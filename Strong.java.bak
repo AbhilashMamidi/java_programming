@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class Strong 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number ");
+		int a = scan.nextInt();
+		System.out.println("Enter the anoither number");
+		int b = scan.nextInt();
+		int count = 1;
+		for (c=1;c<=b ;c++ )
+		{
+			int sum=0;
+			int last=0;
+			int temp=c;
+			while (c!=0)
+			{
+				last=c%10;
+				int fact=1;
+				for (int d=1;d<=last ;d++ )
+				{
+					fact=fact*d;
+				}
+				sum=sum+fact;
+				c=c/10;
+			}
+			c=temp;
+			if (sum==c)
+			{
+			
+			System.out.println(count + ")" +c);
+			count++;
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class N_numberof_sum
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int sum = 0;
+		for (int a=1;true ;a++ )
+		{
+			System.out.println("Enter the number :" + a);
+			int b = scan.nextInt();
+			sum=sum+b;
+			if (b==0)
+			{
+				break;
+			}
+			
+		}
+		System.out.println(sum);
+	}
+}

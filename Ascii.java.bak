@@ -1,0 +1,13 @@
+class Ascii 
+{
+	public static void main(String[] args) 
+	{
+		char a = 'A';
+		char b = 'Z';
+		for (char c=a;a>=b ;a--)
+		{
+			System.out.println(a);
+		}
+		
+	}
+}

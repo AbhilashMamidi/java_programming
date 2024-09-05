@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class SumOfOddDigits 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan =  new Scanner(System.in);
+		System.out.println("Enter the value");
+		int m = scan.nextInt();
+        
+		int sum=1;
+		for (int b=1;b<=m ;b++ )
+		{
+			sum=sum*b;
+		}
+			System.out.println("The factorial of the " + m + " is .." +sum);
+	}
+}

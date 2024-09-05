@@ -1,0 +1,33 @@
+ import java.util.Scanner;
+
+public class Squares
+ {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       // System.out.print("Enter m: ");
+        //int m = sc.nextInt();
+        System.out.print("Enter n: ");
+        int n = sc.nextInt();
+		int lstd=0;
+		int rev=0;
+        for (int i = 1; i <= n; i++) {
+            int square = i * i;
+           
+                
+            
+        }
+		while (n!=0)
+		{
+		lstd=n%10;
+		rev=(rev*10)+lstd;
+		n=n/10;
+		}
+	
+		
+		System.out.println(rev);
+		
+    }
+}
+
+ 
+

@@ -1,0 +1,19 @@
+class While_condition 
+{
+	public static void main(String[] args) 
+	{
+		int a=1;
+		while (a<=10)
+		{
+			a++;
+			if (a==7)
+			{
+				continue;
+				
+			}
+		
+		System.out.println(a);
+		
+		}
+	}
+}

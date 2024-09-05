@@ -1,0 +1,12 @@
+class Relational_operators 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(4<2);
+		System.out.println(5>3);
+		System.out.println(4>=4);
+		System.out.println(12<=10);
+		System.out.println(6==6);
+		System.out.println(7!=6);
+	}
+}

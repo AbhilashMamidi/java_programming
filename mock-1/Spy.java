@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Spy 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the value");
+		int m = scan.nextInt();
+		System.out.println("Enter the another value ");
+		int n = scan.nextInt();
+		int product=1;
+		int sum=0;
+		int lstd=1;
+		
+	}
+}

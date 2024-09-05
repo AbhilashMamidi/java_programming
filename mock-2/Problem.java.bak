@@ -1,0 +1,19 @@
+class Problem 
+{
+	public static void main(String[] args) 
+	{
+		int distance =100;
+	    int boatSpeed=40;
+		int 
+	}
+}
+/*write a program to find the time taken bya boat to cover 100 km and return back (in both up and downstream ) for the given boat speed and river speed
+*waptp no fibanocci number terms from 50 to 1 in reverse order
+*waptp find summation of middile digits 
+*     
+         **                      **
+		   **                  **
+		     **              **          pattern program 
+			   **          **
+			     *  *  *  *  
+*/

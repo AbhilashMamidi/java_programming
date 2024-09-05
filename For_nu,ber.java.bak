@@ -1,0 +1,7 @@
+class For_nu,ber 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Factorial 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the min range");
+		int a = scan.nextInt();
+        System.out.println("Enter the factorial number");
+		int b = scan.nextInt();
+		for (int c=a;a<=b ;c++ )
+		{
+			if (b%c==0)
+			{
+             System.out.println(c);
+			 if (b==c)
+			 {
+				 break;
+			 }
+			}
+		}
+		
+		
+	}
+}
